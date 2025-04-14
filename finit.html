@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FiNIT - MANIT Bhopal</title>
+  <link rel="stylesheet" href="finit.css" />
+</head>
+<body>
+
+ 
+  <div id="loading">
+    <div class="spin"></div>
+    <p>Loading FiNIT...</p>
+  </div>
+
+  
+  <div id="main-content" style="display: none;">
+    
+    
+    <nav class="navbar">
+      <div class="navimg"> <img  src="C:\Users\HP\Desktop\fnit.jpg" alt="Error occured"></div>
+      <div class="logo">FiNIT</div>
+  
+<div class="hamburger" onclick="toggleMenu()">
+  <div class="dot"></div>
+  <div class="dot"></div>
+  <div class="dot"></div>
+</div>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+ 
+
+    <section class="hero">
+      <div class="herocontent">
+        
+        <div class="herotext">
+          <h1>Welcome to FiNIT</h1>
+          <p>The Finance & Investment Society of MANIT Bhopal.</p>
+          <a href="#events" class="hero-btn">Explore Our Events</a>
+        </div>
+        <div class="hero-img">
+          <img src="https://img.freepik.com/free-vector/finance-concept-illustration_114360-22006.jpg" alt="Finance Illustration">
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="about">
+      <h2>What is FiNIT?</h2>
+      <p>FiNIT, the Finance Society of MANIT Bhopal, is a student-driven initiative dedicated to fostering financial literacy and awareness among the campus community. We aim to bridge the gap between theoretical knowledge and real-world financial practices through interactive workshops, seminars, and collaborative events. Our mission is to empower students with the skills and insights necessary to navigate the complex world of finance confidently.</p>
+       
+    </section>
+
+
+    <section id="events">
+      <h2>Our Events</h2>
+      <div class="eventcard">
+        <div class="card">
+          <img src="https://www.cipet.gov.in/gallery/gallery/308/big/2.JPG" alt="Finance Image 1" />
+          <h3>Wall Street Wizards</h3>
+          <p>This exhilarating challenge is designed to test participants' financial acumen, strategic thinking, and market instincts. Participants are immersed in a dynamic environment that simulates real-world financial scenarios, requiring them to make quick decisions and adapt to changing market conditions</p>
+        </div>
+        <div class="card">
+          <img src="https://media.getmyuni.com/assets/images/main/college/content/college-5c5968f3a132ab4299187a24dd68ac02.webp" alt="Finance Image 2" />
+          <h3>F-invest : The Flagship Event of FiNIT</h3>
+          <p> This annual event is designed to immerse students in the world of finance through a series of engaging activities and competitions. Finvest features a variety of sub-events, including stock market simulations, investment challenges, and strategic games.</p>
+        </div>
+      </div>
+    </section>
+   
+    <section id="team">
+      <h2>Meet the Team</h2>
+      <div class="tmlist">
+        <div class="tmmember">
+          <img src="https://res.cloudinary.com/dju84uvhd/image/upload/c_fill,g_face,f_auto,q_auto,fl_progressive/v1741432348/Dr_Nevnath_Shrinuu_MBA_edjaml.jpg" alt="Jane Smith">
+          <h3>Dr.Nenavath Sreenu</h3>
+          <p>Coordinator</p>
+        </div>
+
+        <div class="tmmember">
+          <img src="https://res.cloudinary.com/dju84uvhd/image/upload/c_fill,g_face,f_auto,q_auto,fl_progressive/v1741432369/Ashis_Kumar_Pradhan_qxbqua.jpg" alt="John Doe">
+          <h3>DR. AshisKumarPradhan</h3>
+          <p>Co-cordinator</p>
+        </div>
+
+        <div class="tmmember">
+          <img src="https://res.cloudinary.com/dju84uvhd/image/upload/c_fill,g_face,f_auto,q_auto,fl_progressive/v1741432374/Dr_Madan_Dhnora_pcelwj.png" alt="John Doe">
+          <h3>DR. Madan Dhanora</h3>
+          <p>Co-cordinator</p>
+        </div>
+    </div>
+    </section>
+
+
+  <section id="contact" class="ctcsection">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you. Drop us a message!</p>
+  
+    <form class="fdkform">
+      <input type="text" placeholder="Your Name" />
+      <input type="email" placeholder="Your Email"  />
+      <textarea placeholder="Your Message"  ></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  
+    <div class="slmedia">
+      <p>Follow us:</p>
+      <a href="https://www.instagram.com/finit_nitb?igsh=eXdmZHM5dTdkaThs"><img class="contactimg" src="data:image/jpeg;base64,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" alt="network problem"></a>
+      <a href="https://www.linkedin.com/company/finit-nitb/"><img class="contactimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQx72nL2ZQw4THXkQQ84xz7fQt9Ttoe9H2Eg&s" alt="network problem"></a>
+      <a href="https://www.youtube.com/@finit_nitb"><img class="contactimg" src="data:image/png;base64,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" src="network error"></a>
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2025 FiNIT, MANIT Bhopal. Designed by Satyam Sharma.</p>
+  </footer>
+  
+
+  <script src="finit.js "></script>
+</body>
+</html>
